@@ -38,7 +38,8 @@ platform = new Ground(100,300,300,170)
 }
 
 function draw(){
-    background("black");
+    background("green");
+    
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
